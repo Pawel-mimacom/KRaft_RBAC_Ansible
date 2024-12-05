@@ -32,6 +32,8 @@
  1. > confluent iam rbac role-binding create --principal User:superUser --role SystemAdmin --kafka-cluster-id <cluster_id>
  
  
- ## Control Center reachable on http://localhost:9021 (controlcenterAdmin: controlcenterAdmin)
- ## openLdap UI (phpldapadmin) on http://localhost:8010  (cn=admin,dc=mimacomdemo,dc=com: admin)
+ ### Control Center reachable on http://localhost:9021 (controlcenterAdmin: controlcenterAdmin)
+ ### openLdap UI (phpldapadmin) on http://localhost:8010  (cn=admin,dc=mimacomdemo,dc=com: admin)
+
+ ## This repository is associated with mimacom's blog post https://blog.mimacom.com/confluent-ansible-kraft-rbac/ .
 
